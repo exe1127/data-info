@@ -7,7 +7,7 @@ connection = psycopg2.connect(
     host="localhost",
     user="postgres",
     password=config.password,
-    database="baseinfo",
+    database="info-example",
     port="5432"
 )
 
